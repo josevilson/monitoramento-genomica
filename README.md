@@ -1,5 +1,6 @@
-# monitoramento-genomica
-# monitoramento-genomica
+## Arquitetura escolhida
+
+![](img/arquitetura.png)
 
 # Sistema de Monitoramento de Avanços no Campo da Genômica
 
@@ -42,6 +43,4 @@ O sistema foi desenhado para executar várias atividades essenciais:
    - **Opção 2 - Webhooks com Notificações por Eventos:**
      - Configuramos um webhook para receber dados a partir de um evento representado por uma requisição POST. As notícias adquiridas por esse método são armazenadas temporariamente e verificadas antes de serem inseridas no destino final, evitando dados duplicados.
 
-## Arquitetura escolhida
 
-![](img/arquitetura.png)
