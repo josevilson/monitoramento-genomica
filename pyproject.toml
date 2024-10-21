@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "minio-test"
+version = "0.1.0"
+description = ""
+authors = ["dinho"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+minio = "^7.2.9"
+pyspark = "^3.5.3"
+delta-spark = "3.2.1"
+confluent-kafka = "^2.6.0"
+flask = "^3.0.3"
+flask-socketio = "^5.4.1"
+eventlet = "^0.37.0"
+pandas = "^2.2.3"
+pyarrow = "^17.0.0"
+boto3 = "^1.35.44"
+
+
+[tool.poetry.group.dev.dependencies]
+pyspark = "^3.5.3"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
